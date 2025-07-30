@@ -12,7 +12,7 @@ def measure_time(n: int, max_delay: int) -> float:
 
     """Measures the total execution time for wait_n(n, max_delay)
     and returns the average time per call. using time.perf_counter
-    we can measure start and end time for the wait_n to run. 
+    we can measure start and end time for the wait_n to run.
 
     Args:
         n (int): The number of calls to wait_n.
